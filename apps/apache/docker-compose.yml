@@ -1,6 +1,6 @@
 services:
   app:
-    image: httpd:2.4
+    image: httpd:$APP_VERSION
     ports:
       - 8090:80
     volumes:
