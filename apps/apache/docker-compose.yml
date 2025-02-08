@@ -1,0 +1,7 @@
+services:
+  app:
+    image: httpd:2.4
+    ports:
+      - 8090:80
+    volumes:
+      - /docker/apache/:/usr/local/apache2/htdocs/
